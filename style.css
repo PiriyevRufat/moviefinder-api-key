@@ -135,3 +135,39 @@ p{
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width: 320px) {
+    .container {
+        width: 90%;
+        max-width: none;
+        padding: 2em 1em;
+    }
+
+    .search-container {
+        grid-template-columns: 7fr 3fr;
+    }
+
+    .search-container input {
+        padding: 0.5em;
+    }
+
+    .search-container button {
+        padding: 0.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .rating h4 {
+        font-size: 1em;
+    }
+
+    .genre div {
+        font-size: 0.7em;
+        padding: 0.3em 1em;
+    }
+
+    p {
+        font-size: 0.85em;
+    }
+}
